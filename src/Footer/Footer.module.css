@@ -1,0 +1,382 @@
+ul{
+    list-style: none;
+}
+
+li{
+    color: #90CAF9;
+    font-family: var(--main_font);
+    margin-top: 8px;
+}
+
+.about{
+    position: absolute;
+    width: 1520px;
+    height: 203px;
+    left: 0px;
+    top: 889px;
+    background: #243238;
+}
+
+.logo2{
+    position: absolute;
+    width: 185.93px;
+    height: 30px;
+    left: 667px;
+    top: 929px;
+}
+
+.text{
+    position: absolute;
+    width: 1040px;
+    height: 42px;
+    left: 280px;
+    top: 969px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 14px;
+    text-align: center;
+    color: #B0BEC5;
+}
+
+.first_li{
+    position: absolute;
+    width: 62px;
+    height: 21px;
+    left: 531px;
+    top: 1031px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FF8A65;
+}
+
+.first_li:after{
+    content: 'покупців';
+    margin-left: 10px;
+    width: 55px;
+    height: 21px;
+    left: 603px;
+    top: 1031px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 14px;
+    color: #B0BEC5;
+    }
+    
+.second_li{
+    position: absolute;
+    width: 35px;
+    height: 21px;
+    left: 698px;
+    top: 1031px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FF8A65;
+}
+
+.second_li:after{
+    content: 'постачальників';
+    margin-left: 10px;
+    width: 55px;
+    height: 21px;
+    left: 603px;
+    top: 1031px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 14px;
+    color: #B0BEC5;
+    }
+
+.third_li{
+    position: absolute;
+    width: 43px;
+    height: 21px;
+    left: 877px;
+    top: 1031px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FF8A65;
+}   
+
+.third_li:after{
+    content: 'продуктів';
+    margin-left: 10px;
+    width: 55px;
+    height: 21px;
+    left: 603px;
+    top: 1031px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    font-size: 14px;
+    color: #B0BEC5;
+    }
+
+.links_wrapper{
+    position: absolute;
+    width: 1520px;
+    height: 290px;
+    left: 0px;
+    top: 1092px;
+    background: #243238;
+}
+.product_ul{
+    position: absolute;
+    width: 180px;
+    height: 21px;
+    left: 310px;
+    top: 1093px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FFFFFF;
+}  
+
+.product_icon{
+    position: absolute;
+    width: 16.04px;
+    height: 16.83px;
+    left: 325px;
+    top: 1108px;
+}
+
+.themes_icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 570px;
+    top: 1108px;
+    }
+
+.themes_ul{
+    position: absolute;
+    width: 170px;
+    height: 21px;
+    left: 560px;
+    top: 1093px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.company_ul{
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 810px;
+    top: 1093px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.company_icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 820px;
+    top: 1108px;
+}
+
+.support{
+    position: absolute;
+    width: 180px;
+    height: 21px;
+    left: 1060px;
+    top: 1093px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.support_icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1070px;
+    top: 1108px;
+}
+
+.subscribe_wrapper{
+    position: absolute;
+    width: 1520px;
+    height: 82px;
+    left: 0px;
+    top: 1382px;
+    background: #243238;
+}
+
+.email_text{
+    position: absolute;
+    width: 190px;
+    height: 42px;
+    left: 310px;
+    top: 1402px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: bold;
+    line-height: 21px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.email_icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 280px;
+    top: 1418px;
+}
+
+.input{
+    position: absolute;
+    width: 440px;
+    height: 40px;
+    left: 540px;
+    top: 1412px;
+    background: #ECEFF1;
+    box-shadow: inset 0px 1px 0px #CFD8DC;
+    border-radius: 3px;
+    font-style: italic;
+    font-weight: 500;
+}  
+
+.email_input_icon{
+    position: absolute;
+    z-index: 7;
+    width: 20px;
+    height: 20px;
+    left: 560px;
+    top: 1423px;
+}
+
+.subscribe_text{
+    position: absolute;
+    width: 220px;
+    height: 36px;
+    left: 1020px;
+    top: 1402px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 12px;
+    color: #B0BEC5;
+}
+
+.deel{
+    color: #90CAF9;
+    /* font-weight: 600; */
+}
+
+.social{
+    position: absolute;
+    width: 1520px;
+    height: 60px;
+    left: 0px;
+    top: 1464px;
+    background: #243238;
+}
+
+.copy_right{
+    position: absolute;
+    width: 10px;
+    height: 18px;
+    left: 280px;
+    top: 1475px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.copy_right_text{
+    position: absolute;
+    width: 270px;
+    height: 18px;
+    left: 295px;
+    top: 1475px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
+.fb_icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 690px;
+    top: 1484px;
+}
+
+.google_icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 730px;
+    top: 1484px;
+}
+
+.pint_icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 770px;
+    top: 1484px;
+    }
+
+.twit_icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 810px;
+    top: 1484px;
+} 
+
+.update_text{
+    position: absolute;
+    width: 190px;
+    height: 18px;
+    left: 1070px;
+    top: 1475px;
+    font-family: var(--main_font);
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 10px;
+    text-align: right;
+    color: #B0BEC5;
+}
+
+
