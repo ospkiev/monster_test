@@ -82,6 +82,8 @@ class App extends Component {
           <p className={styles.adviser_text}>шукаєте щось особливе?
              Підберіть бажане разом з консультантом!
             </p>
+
+
           <img src={start_chat} className={styles.start_chat} alt='img' />
         </div >
       </div>
