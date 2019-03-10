@@ -6,7 +6,7 @@ import stars from '../img/order/product/stars.svg';
 import delete_icon_right from '../img/order/order/delete_icon_right.svg';
 import delete_icon_left from '../img/order/order/delete_icon_left.svg';
 
-const Product = () => {
+const Product = ({ deleteFunc, price }) => {
     return (
         <div>
             <div className={styles.product_wrapper}></div>
@@ -15,13 +15,13 @@ const Product = () => {
             <p className={styles.gradient}></p>
             <p className={styles.travelino_agency}>Travelino Agency Te</p>
             <span className={styles.old_price}>$1,800</span>
-            <span className={styles.new_price}>$1,555</span>
+            <span className={styles.new_price} >${price}</span>
             <img src={stars} className={styles.stars} alt='img' />
             <p className={styles.delete_product_container}></p>
             <p className={styles.product_text_bottom}> I want to use it <span className={styles.only_once}>only once</span> </p>
-            <img src={delete_icon_right} className={styles.delete_product_icon_right} alt='img' />
-            <img src={delete_icon_left} className={styles.delete_product_icon_left} alt='img' />
-        </div>
+            <img src={delete_icon_right} className={styles.delete_product_icon_right} alt='img' data-id='2' onClick={deleteFunc} />
+            <img src={delete_icon_left} className={styles.delete_product_icon_left} alt='img' data-id='2' onClick={deleteFunc} />
+        </div >
     );
 };
 

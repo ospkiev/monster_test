@@ -28,112 +28,6 @@
     background: #E5E5E5;
 }
 
-/* .order_wrapper{
-    background: #FFFFFF;
-    position: absolute;
-    width: 620px;
-    height: 240px;
-    left: 280px;
-    top: 179px;
-} */
-
-/* .product_wrapper{
-    position: absolute;
-    width: 620px;
-    height: 250px;
-    left: 280px;
-    top: 419px;
-    background: #FFFFFF;
-    box-shadow: inset 0px 1px 0px #ECEFF1;
-} */
-
-/* .order_img{
-    position: absolute;
-    width: 160px;
-    height: 160px;
-    left: 320px;
-    top: 219px;
-    background: #FFFFFF;
-} */
-
-/* .service_icon{
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    left: 500px;
-    top: 233px;
-    cursor: pointer;
-} */
-
-/* .service_text{
-    position: absolute;
-    width: 43px;
-    height: 21px;
-    left: 540px;
-    top: 224px;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: normal;
-    line-height: 21px;
-    font-size: 14px;
-    color: #243238;
-} */
-
-/* .instalation{
-    position: absolute;
-    width: 79px;
-    height: 24px;
-    left: 500px;
-    top: 273px;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: bold;
-    line-height: 24px;
-    font-size: 16px;
-    color: #2196F3;
-    cursor: pointer;
-} */
-
-/* .instalation_service{
-    position: absolute;
-    width: 252px;
-    height: 44px;
-    left: 500px;
-    top: 329px;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: normal;
-    line-height: 21px;
-    font-size: 14px;
-    color: #243238;
-    } */
-
-/* .learn_more{
-    color: #2196F3;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: bold;
-    line-height: 24px;
-    font-size: 16px;
-    color: #2196F3;
-    cursor: pointer;
-}  */
-
-/* .price{
-    position: absolute;
-    width: 28px;
-    height: 21px;
-    left: 752px;
-    top: 274px;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 16px;
-    text-align: right;
-    color: #1AB744;
-} */
-
 .checkout_bg{
     z-index: 0;
     position: absolute;
@@ -165,7 +59,7 @@
     z-index: 1;
     width: 74px;
     height: 26px;
-    left: 1072px;
+    left: 1043px;
     top: 212px;
     font-family: var(--main_font);
     font-style: normal;
@@ -219,145 +113,6 @@
     top: 439px;
 }
 
-
-/* .product_img{
-    position: absolute;
-    width: 160px;
-    height: 170px;
-    left: 320px;
-    top: 459px;
-} */
-
-/* .html5{
-    position: absolute;
-    width: 359px;
-    height: 40px;
-    left: 500px;
-    top: 459px;
-} */
-
-/* .travelino_agency{
-    z-index: 1;
-    position: absolute;
-    width: 230px;
-    height: 24px;
-    left: 500px;
-    top: 504px;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: bold;
-    line-height: 24px;
-    font-size: 16px;  
-    color: #2196F3;
-    cursor: pointer;
-} */
-
-/* .gradient{
-    z-index: 2;
-    position: absolute;
-    width: 158px;
-    height: 21px;
-    left: 500px;
-    top: 504px;
-    background: linear-gradient(to right, rgba(237,237,237,0) 52%, rgba(246,246,246,0) 53%, rgba(255,255,255,1) 100%);
-    cursor: pointer;
-} */
-
-/* .stars{
-    position: absolute;
-    width: 120px;
-    height: 20px;
-    left: 500px;
-    top: 559px;
-} */
-
-/* .old_price{
-    position: absolute;
-    z-index: 1;
-    width: 41px;
-    height: 19px;
-    left: 670px;
-    top: 524px;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 14px;
-    text-decoration-line: line-through;
-    color: #90A4AE;
-    } */
-
-/* .new_price{
-    position: absolute;
-    width: 50px;
-    height: 21px;
-    left: 721px;
-    top: 522px;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 16px;
-    color: #1AB744;
-}  */
-
-/* .delete_container{
-    position: absolute;
-    width: 60px;
-    height: 160px;
-    left: 840px;
-    top: 219px;
-    cursor: pointer;
-} */
-
-/* .delete_icon_right, .delete_icon_left{
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 865px;
-    top: 294px;
-    cursor: pointer;
-} */
-
-/* .delete_product_container{
-    position: absolute;
-    width: 60px;
-    height: 170px;
-    left: 840px;
-    top: 459px;
-    cursor: pointer;
-} */
-
-/* .delete_product_icon_right, .delete_product_icon_left{
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 865px;
-    top: 524px;
-    cursor: pointer;
-} */
-
-
-
-/* .only_once:after{
-    content: url('../img/order/product/arrow_to_bottom.svg');
-    margin-left: 10px;  
-} */
-
-/* .product_text_bottom{
-    position: absolute;
-    width: 180px;
-    height: 17px;
-    left: 500px;
-    top: 601px;
-    font-family: var(--main_font);
-    font-style: normal;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 13px;
-    color: #243238;
-} */
-
 .adviser{
     position: absolute;
     width: 88px;
@@ -380,7 +135,7 @@
     width: 635px;
     height: 60px;
     left: 408px;
-    top: 809px;
+    top: 788px;
     font-family: var(--main_font);
     font-style: normal;
     font-weight: bold;

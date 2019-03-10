@@ -6,7 +6,7 @@ import delete_icon_left from '../img/order/order/delete_icon_left.svg';
 import order from '../img/order/order/order.svg';
 
 
-const Order = () => {
+const Order = ({ deleteFunc, price }) => {
     return (
         <div>
             <div className={styles.order_wrapper}></div>
@@ -15,10 +15,12 @@ const Order = () => {
             <p className={styles.instalation}>Installation</p>
             <p className={styles.instalation_service}>Installation service is one of our all-ti...<br />
                 <span className={styles.learn_more}>Learn More</span> </p>
-            <p className={styles.price}>$19</p>
-            <p className={styles.delete_container}></p>
-            <img src={delete_icon_right} className={styles.delete_icon_right} alt='img' />
-            <img src={delete_icon_left} className={styles.delete_icon_left} alt='img' />
+            <p className={styles.price} value='20'>${price}</p>
+            <p className={styles.delete_container} ></p>
+            <label for='red_color'>
+                <img src={delete_icon_right} className={styles.delete_icon_right} alt='img' onClick={deleteFunc} data-id='1' />
+                <img src={delete_icon_left} className={styles.delete_icon_left} alt='img' onClick={deleteFunc} data-id='1' id='red_color' />
+            </label>
             <img src={order} className={styles.order_img} alt='img' />
         </div>
     );
