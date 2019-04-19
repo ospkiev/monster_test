@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/monster_test/static/media/email_input_icon.62268e27.svg"
   },
   {
-    "revision": "1feec811cc709f1564f0",
-    "url": "/monster_test/static/css/main.c37e8a51.chunk.css"
+    "revision": "11ca09a18e1282975261",
+    "url": "/monster_test/static/css/main.5946a689.chunk.css"
   },
   {
     "revision": "8265c9e0c2f87e67a0a1",
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/monster_test/static/media/email_icon.f2a46bb8.svg"
   },
   {
-    "revision": "1feec811cc709f1564f0",
-    "url": "/monster_test/static/js/main.2363ec00.chunk.js"
+    "revision": "11ca09a18e1282975261",
+    "url": "/monster_test/static/js/main.af114144.chunk.js"
   },
   {
     "revision": "d4b2e13d9715f00988538e2569b40b94",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/monster_test/static/media/arrow_left_icon.6cefeafc.svg"
   },
   {
-    "revision": "8fe689cfe1b2e90f3c98050277f5eebd",
+    "revision": "ecb495564a98c1fe2b323345bfcc8afa",
     "url": "/monster_test/index.html"
   }
 ];
