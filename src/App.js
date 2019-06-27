@@ -51,39 +51,33 @@ class App extends Component {
     }
   }
 
-
   render() {
     const { numberOfOrders, removeOrder, removeProduct, total } = this.state;
     return (
       <div className="App">
-        <Header />
+        {/* <Header /> */}
         {removeOrder ? <Order deleteFunc={this.deleteFunc} price={arrOfOrders[0].price} /> : null}
         {removeProduct ? <Product deleteFunc={this.deleteFunc} price={arrOfOrders[1].price} /> : null}
         <Footer />
         <div className={styles.main}>
           <img src={arrow_left_icon} className={styles.arrow_left_icon} alt='img' />
           <h2 className={styles.text}><span>{numberOfOrders} </span>Продукти у кошику</h2>
-
           <div>
             <p className={styles.total}>Сума:</p>
             <p className={styles.sum}>${total}</p>
             <img src={checkout_bg} className={styles.checkout_bg} alt='img' />
             <img src={benefits} className={styles.benefits} alt='img' />
           </div>
-
           <div>
             <p className={styles.button_text}>Перейти на чекаут</p>
             <img src={button_bg} className={styles.button_bg} alt='img' />
             <img src={stroke_icon} className={styles.stroke_icon} alt='img' />
           </div>
-
           <div className={styles.adviser_wrapper}></div>
           <img src={adviser} className={styles.adviser} alt='img' />
           <p className={styles.adviser_text}>шукаєте щось особливе?
              Підберіть бажане разом з консультантом!
             </p>
-
-
           <img src={start_chat} className={styles.start_chat} alt='img' />
         </div >
       </div>
